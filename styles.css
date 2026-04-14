@@ -5,7 +5,8 @@ header{
     align-items: center;
     padding: 10px;
     font-family: "Montserrat", sans-serif;
-    gap:40px
+    gap:40px;
+    font-weight: bold;
 }
 
 img{
@@ -16,11 +17,16 @@ img{
 header>a{
     text-decoration-line :none;
     color: white;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 body {
     margin: 0;
+}
+
+body>section>img{
+    position: absolute;
+    z-index: -1;
 }
 
 footer{
