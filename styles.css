@@ -13,7 +13,7 @@ img{
     height: auto;
 }
 
-a{
+header>a{
     text-decoration-line :none;
     color: white;
     border-radius: 17%;
