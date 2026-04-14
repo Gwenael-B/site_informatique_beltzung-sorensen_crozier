@@ -16,10 +16,26 @@ img{
 header>a{
     text-decoration-line :none;
     color: white;
-    border-radius: 17%;
     font-size: 35px;
 }
 
 body {
     margin: 0;
+}
+
+footer{
+    background-color: #163767;
+    text-align: center;
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer>a{
+    text-decoration-line :none;
+    color: white;
+    font-size: 25px;
+}
+
+footer>p{
+    color: white;
 }
