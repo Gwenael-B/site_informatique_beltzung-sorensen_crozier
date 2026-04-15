@@ -45,9 +45,14 @@ nav {
     margin: 10px;
 }
 
+nav a{
+    color: black;
+    text-decoration-line :none;
+}
+
 nav a:hover{
-    color:white;
-    background-color: #163767;
+    color:black;
+    background-color: #81ECEC;
 }
 
 main {
@@ -63,6 +68,44 @@ section p{
     padding: 10px;
     margin: 10px;
 }
+
+figure {
+  max-width: 220px;
+  text-align: center;
+}
+
+figure>img{
+    max-width: 220px;
+}
+
+figcaption {
+  background-color: #163767;
+  color: white;
+  padding: 5px;
+}
+
+section #colonne1{
+    display: flex;
+    justify-content: left;    
+    gap: 10px;
+    margin: 50px;
+}
+
+section #colonne2{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin: 50px;
+}
+
+section #colonne1>p{
+    text-align: left;
+}
+
+section #colonne2>p{
+    text-align: right;
+}
+
 
 footer{
     background-color: #163767;
