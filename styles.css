@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box:;
+    box-sizing: border-box;
 }
 
 header{
@@ -7,7 +7,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 10px;
+    padding: 50px;
     font-family: "Montserrat", sans-serif;
     gap:40px;
     font-weight: bold;
@@ -18,11 +18,6 @@ header{
     left: 0;
 }
 
-img{
-    width: 250px;
-    height: auto;
-}
-
 header>a{
     text-decoration-line :none;
     color: white;
@@ -31,11 +26,42 @@ header>a{
 
 body {
     padding-top: 80px;
+    margin: 0;
+}
+
+img{
+    width: 250px;
+    height: auto;
 }
 
 body>section>img{
     position: absolute;
     z-index: -1;
+}
+
+nav {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav a:hover{
+    color:white;
+    background-color: #163767;
+}
+
+main {
+    padding: 10px;
+}
+
+section{
+    padding: 10px;
+    margin: 10px;
+}
+
+section p{
+    padding: 10px;
+    margin: 10px;
 }
 
 footer{
