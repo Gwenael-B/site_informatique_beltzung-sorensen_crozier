@@ -126,62 +126,10 @@ footer>p{
     color: white;
 }
 
-
-header {
-    background-color: #163767;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 10px;
-    font-family: "Montserrat", sans-serif;
-    gap: 40px;
-    font-weight: bold;
-}
-
-img {
-    width: 250px;
-    height: auto;
-}
-
-header > a {
-    text-decoration-line: none;
-    color: white;
-    font-size: 25px;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-body > section > img {
-    position: absolute;
-    z-index: -1;
-}
-
-footer {
-    background-color: #163767;
-    text-align: center;
-    padding: 5px;
-    font-family: "Montserrat", sans-serif;
-}
-
-footer > a {
-    text-decoration-line: none;
-    color: white;
-    font-size: 25px;
-    font-weight: bold;  
-}
-
-footer > p {
-    color: white;
-}
-
-
-
 .container {
     overflow: hidden; 
     width: 100%; /*le conteneur prend toute la largeur de la page*/
+    padding-top: 20px;
 }
 
 .carousel {
