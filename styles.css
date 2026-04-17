@@ -84,25 +84,25 @@ figcaption {
   padding: 5px;
 }
 
-section #colonne1{
+section .colonne1{
     display: flex;
     justify-content: left;    
     gap: 10px;
     margin: 50px;
 }
 
-section #colonne2{
+section .colonne2{
     display: flex;
     justify-content: right;
     gap: 10px;
     margin: 50px;
 }
 
-section #colonne1>p{
+section .colonne1>p{
     text-align: left;
 }
 
-section #colonne2>p{
+section .colonne2>p{
     text-align: right;
 }
 
