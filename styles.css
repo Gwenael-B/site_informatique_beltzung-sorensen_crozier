@@ -16,6 +16,7 @@ header{
     height: 80px;
     top: 0;
     left: 0;
+    z-index: 1000; /*Force le header au premier plan*/
 }
 
 header>a{
@@ -151,15 +152,16 @@ footer>p{
 
 .caption {
     position: absolute;
-    bottom: 4%; left: 50%;
+    bottom: 1%; left: 50%;
     transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
-    background-color: rgba(22, 55, 103, 0.8);
+    font-weight: bold;
     color: white;
     padding: 15px;
     font-family: "Montserrat", sans-serif;
-    font-size: 32px;
+    font-size: 55px;
     border-radius: 15px;
     max-width: 40%;
+    text-align: center;
 }
 
 @keyframes fadeIn {
@@ -217,7 +219,7 @@ footer>p{
     font-family: "Montserrat", sans-serif;
     font-size: 45px;
     border-radius: 15px;
-
+    z-index: 5;
     font-weight: bold;
 }
 
@@ -231,4 +233,36 @@ footer>p{
     font-family: "Montserrat", sans-serif;
     font-size: 35px;
     border-radius: 15px;
+    z-index: 5;
+}
+
+.chiffres, .classement{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 33px;
+    margin: 0;
+}
+
+h3{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 53px;
+    font-weight: bold;
+    color:#147BBF;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.classement>div{
+    display: flex;
+    padding-left: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color:#147BBF;
+    justify-content: center;
+    margin: 0;
 }
