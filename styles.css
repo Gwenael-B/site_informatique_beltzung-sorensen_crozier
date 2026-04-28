@@ -324,14 +324,19 @@ h3{
 
 .formations-main h1 {
     color: #147BBF;
-    font-size: 45px;
+    font-size: 55px;
     text-align: center;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .programmes-liste ul {
     font-size: 18px;
     line-height: 1.8;
+}
+
+.programmes-liste h3{
+    font-size: 45px;
 }
 
 /* Grille pour les cartes de formation*/
