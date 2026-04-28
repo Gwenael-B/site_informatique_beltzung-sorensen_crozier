@@ -271,7 +271,7 @@ h3{
 
 .actualites {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /*Crée autant de colonnes que possible, mais chaque colonne doit faire au minimum 240px de large. S'il reste de la place, étire-les équitablement*/
     gap: 25px;
     padding: 20px 10px 40px;
     margin: 10px;
