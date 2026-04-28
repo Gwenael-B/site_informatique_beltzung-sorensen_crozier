@@ -316,10 +316,11 @@ h3{
 
 /*Page cours et formations*/
 .formations-main {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 40px 20px;
     font-family: "Montserrat", sans-serif;
+    font-size:22px;
 }
 
 .formations-main h1 {
@@ -342,7 +343,7 @@ h3{
 /* Grille pour les cartes de formation*/
 .formation-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Crée automatiquement des colonnes de minimum 400px de large */
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); /* Crée automatiquement des colonnes de minimum 400px de large */
     gap: 40px;
     margin-top: 30px;
 }
