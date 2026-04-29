@@ -343,7 +343,7 @@ h3{
 /* Grille pour les cartes de formation*/
 .formation-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); /* Crée automatiquement des colonnes de minimum 400px de large */
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); /* Crée automatiquement des colonnes de minimum 500px de large */
     gap: 40px;
     margin-top: 30px;
 }
@@ -403,4 +403,41 @@ h3{
     margin: 0;
     padding-left:0;
     font-size:18px;
+}
+
+.formation-details {
+    margin-bottom: 10px;
+}
+
+.formation-summary {
+    color: #147BBF;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 8px;
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+
+.formation-summary:hover {
+    color: #163767;
+}
+
+/* Ajout du symbole "+" à droite */
+.formation-summary::after {
+    content: '+';
+    position: absolute;
+    right: 5px;
+    color: #163767;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+/* Transforme le + en - */
+details[open] .formation-summary::after {
+    content: '-';
 }
