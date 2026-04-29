@@ -441,3 +441,23 @@ h3{
 details[open] .formation-summary::after {
     content: '-';
 }
+
+.formation-details-2 {
+    margin-bottom: 10px;
+    padding-left:25px;
+    position:relative;
+} 
+
+/* Le titre cliquable (remplace l'ancien h4) */
+.formation-summary-2 {
+    font-weight:bold;
+    font-size: 17px;
+    margin-top: 15px;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 8px;
+    cursor: pointer;
+    list-style: none; /* Enlève la flèche noire par défaut */
+    position: relative; 
+    transition: color 0.3s ease;
+    padding-left:20px;
+}
