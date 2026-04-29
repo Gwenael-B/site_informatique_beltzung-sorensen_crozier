@@ -448,7 +448,6 @@ details[open] .formation-summary::after {
     position:relative;
 } 
 
-/* Le titre cliquable (remplace l'ancien h4) */
 .formation-summary-2 {
     font-weight:bold;
     font-size: 17px;
