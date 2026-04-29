@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         dot.addEventListener('click', () => {
             goToSlide(index);
-            resetTimer(); // On relance le décompte de 5s après un clic
+            resetTimer(); // On relance le décompte de 10s après un clic
         });
         dotsContainer.appendChild(dot);
     });
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
         goToSlide(currentIndex + 1);
     }
 
-    // Lancement du défilement automatique (5000ms = 5s)
+    // Lancement du défilement automatique (10000ms = 10s)
     function startTimer() {
         timer = setInterval(nextSlide, 10000);
     }
