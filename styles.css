@@ -314,7 +314,7 @@ h3{
 }
 
 
-/*Page cours et formations*/
+/* ------------------------------ Page cours et formations ---------------------------------------------- */
 .formations-main {
     max-width: 1600px;
     margin: 0 auto;
@@ -371,27 +371,18 @@ h3{
 .card-header h3 {
     color: white;
     margin: 0;
-    font-size: 32px;
+    font-size: 34px;
     padding: 0;
 }
 
 .card-header .sous-titre {
     margin: 15px 0 0 0;
-    font-size: 16px;
+    font-size: 18px;
     color: #81ECEC;
 }
 
 .card-body {
     padding: 30px;
-}
-
-.card-body h4 {
-    color: #147BBF;
-    font-size: 22px;
-    margin-top: 25px;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #f1f1f1;
-    padding-bottom: 8px;
 }
 
 .card-body ul {
@@ -411,7 +402,7 @@ h3{
 
 .formation-summary {
     color: #147BBF;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: bold;
     margin-top: 15px;
     border-bottom: 2px solid #f1f1f1;
@@ -444,22 +435,41 @@ details[open] .formation-summary::after {
 
 .formation-details-2 {
     margin-bottom: 10px;
-    padding-left:25px;
+    padding-left:10px;
     position:relative;
 } 
 
+.formation-details > ul {
+    padding-left: 10px;
+}
+
 .formation-summary-2 {
     font-weight:bold;
-    font-size: 17px;
+    font-size: 21px;
     margin-top: 15px;
     border-bottom: 2px solid #f1f1f1;
     padding-bottom: 8px;
+
     cursor: pointer;
     list-style: none; /* Enlève la flèche noire par défaut */
     position: relative; 
     transition: color 0.3s ease;
-    padding-left:20px;
+    padding-left:0px;
+    color:#147BBF;
 }
+
+/* On cible tous les éléments à l'intérieur de details-2, SAUF summary-2 */
+.formation-details-2 > *:not(.formation-summary-2) {
+    margin-left: 15px;
+}
+
+.formation-details-2 h5 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+/* ------------------------------ Fin page cours et formations ---------------------------------------------- */
 
 table {
   border-collapse: collapse;
@@ -484,4 +494,15 @@ td:last-of-type {
 
 tbody > tr:nth-of-type(even) {
   background-color: rgb(237 238 242);
+}
+
+.contact>h3{
+    text-align: left;
+    padding:10px;
+}
+
+.contact>section{
+    text-align: left;
+    padding:0;
+    margin:0;
 }
