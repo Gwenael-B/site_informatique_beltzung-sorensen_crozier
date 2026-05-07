@@ -92,6 +92,7 @@ section .colonne1{
     justify-content: left;    
     gap: 10px;
     margin: 50px;
+    padding-right: 350px;
 }
 
 section .colonne2{
@@ -99,6 +100,7 @@ section .colonne2{
     justify-content: right;
     gap: 10px;
     margin: 50px;
+    padding-left: 350px;
 }
 
 section .colonne1>p{
@@ -107,6 +109,16 @@ section .colonne1>p{
 
 section .colonne2>p{
     text-align: right;
+}
+
+.enseignant_recherche .colonne1{
+    background-color: rgba(20, 123, 191, 0.5);
+    border-radius: 2pc;
+}
+
+.enseignant_recherche .colonne2{
+    background-color:rgba(20, 123, 191, 0.5);
+    border-radius: 2pc;
 }
 
 
