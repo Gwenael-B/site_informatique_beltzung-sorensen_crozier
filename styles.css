@@ -87,12 +87,18 @@ figcaption {
   padding: 5px;
 }
 
-section .colonne1{
+h1{
+    padding: 20px;
+}
+
+.colonne1{
     display: flex;
     justify-content: left;    
     gap: 10px;
     margin: 50px;
-    padding-right: 350px;
+    font-size: 18px;
+    margin-right: 650px;
+    
 }
 
 section .colonne2{
@@ -100,7 +106,8 @@ section .colonne2{
     justify-content: right;
     gap: 10px;
     margin: 50px;
-    padding-left: 350px;
+    font-size: 18px;
+    margin-left: 650px;
 }
 
 section .colonne1>p{
