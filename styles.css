@@ -89,6 +89,11 @@ figcaption {
 
 h1{
     padding: 20px;
+    color: #147BBF;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .colonne1{
@@ -128,6 +133,13 @@ section .colonne2>p{
     border-radius: 2pc;
 }
 
+.publication_projet>h3{
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
 
 footer{
     background-color: #163767;
