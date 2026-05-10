@@ -683,4 +683,63 @@ tbody tr:last-child td {
     transform: scale(1.02); 
 }
 
-/* ------------------------------------------ FIN Page Contact ---------------------------------------------- */
+/* =================================================== */
+/* ADAPTATION POUR TOUS LES ÉCRANS MOBILES (Max 768px) */
+/* =================================================== */
+@media screen and (max-width: 768px) {
+
+    /* --- LE HEADER & LE BODY --- */
+    header {
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+        height: auto;
+        position: static; 
+    }
+    header>a { font-size: 16px; }
+    body { padding-top: 0; }
+
+    /* --- Réduction des textes géants --- */
+    h1 { font-size: 32px; padding: 10px; }
+    h3 { font-size: 28px; }
+    .titre { font-size: 22px; top: 5%; padding: 10px; }
+    .description { font-size: 16px; top: 25%; padding: 10px; }
+    .caption { font-size: 18px; max-width: 80%; padding: 10px; }
+
+    /* --- PAGE ACCUEIL (Chiffres et classement) --- */
+    .chiffres, .classement {
+        flex-direction: column; 
+        text-align: center;
+        gap: 20px;
+        font-size: 22px;
+        padding: 15px;
+    }
+    .classement>div { font-size: 25px; padding-left: 0; margin-top: 20px;}
+    .actualites { padding: 10px; }
+
+    /* --- PAGE EQUIPE ENSEIGNANTE (Correction des marges) --- */
+    .colonne1, section .colonne2 {
+        margin: 15px; /* Annule tes marges de 650px qui cassaient tout ! */
+        flex-direction: column; /* Met la photo au-dessus du texte */
+        align-items: center;
+    }
+    section .colonne1>p, section .colonne2>p {
+        text-align: center; /* Centre le texte sous la photo */
+    }
+    
+    /* Le Tableau : on le force à permettre un scroll horizontal */
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap; 
+    }
+
+    /* --- PAGES FORMATIONS & CONTACT (Correction des grilles) --- */
+    /* On abaisse le minimum de tes grilles de 500px/400px à 280px */
+    .formation-grid, .contact-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+    }
+    .card-header h3 { font-size: 22px; }
+    .card-header .sous-titre { font-size: 16px; }
+}
