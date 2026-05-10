@@ -683,6 +683,37 @@ tbody tr:last-child td {
     transform: scale(1.02); 
 }
 
+.access-card {
+    grid-column: 1 / -1; 
+}
+
+.transport-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 15px 0;
+}
+
+.transport-list li {
+    margin-bottom: 12px;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.map-container {
+    margin-top: 25px;
+    border-radius: 12px;
+    overflow: hidden; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+    display: block; 
+    width: 100%;
+}
+
+/* -------------------------------------------- FIN Page Contact ---------------------------------------------------- */
+
 /* =================================================== */
 /* ADAPTATION POUR TOUS LES ÉCRANS MOBILES (Max 768px) */
 /* =================================================== */
