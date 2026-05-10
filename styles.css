@@ -597,13 +597,89 @@ tbody tr:last-child td {
 }
 
 
-.contact>h3{
-    text-align: left;
-    padding:10px;
+/* -------------------------------------------- Page Contact ---------------------------------------------------- */
+.contact {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
 }
 
-.contact>section{
-    text-align: left;
-    padding:0;
-    margin:0;
+.contact h1 {
+    color: #147BBF;
+    font-size: 20px;
+    margin-bottom: 50px;
 }
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+}
+
+.contact-card {
+    background: #ffffff;
+    border-top: 6px solid #147BBF; 
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.contact-card h2 {
+    color: #163767;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 10px;
+}
+
+.infos {
+    margin-bottom: 25px;
+}
+
+.infos h4 {
+    color: #147BBF;
+    font-size: 20px;
+    margin: 0 0 5px 0;
+}
+
+.contact-card p {
+    margin: 0 0 15px 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.linkedin ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.linkedin li {
+    margin-bottom: 15px;
+}
+
+.linkedin a {
+    display: block; 
+    text-align: center;
+    background-color: #163767;
+    color: white ; 
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.linkedin a:hover {
+    background-color: #147BBF ;
+    transform: scale(1.02); 
+}
+
+/* ------------------------------------------ FIN Page Contact ---------------------------------------------- */
