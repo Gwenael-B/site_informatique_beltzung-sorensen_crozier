@@ -606,7 +606,8 @@ tbody tr:last-child td {
 
 .contact h1 {
     color: #147BBF;
-    font-size: 20px;
+    font-size: 55px;
+    text-align: center;
     margin-bottom: 50px;
 }
 
